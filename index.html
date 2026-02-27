@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!-- HTML5 document declaration -->
+
+<html lang="en">
+<!-- HTML document start, language English set -->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Character encoding UTF-8 -->
+
+    <title>Login Page</title>
+    <!-- Browser tab ka title -->
+
+    <link rel="stylesheet" href="style.css">
+    <!-- External CSS file link (agar ho to) -->
+
+    <style>
+        /* Internal CSS start */
+
+        body {
+            font-family: Arial, sans-serif;
+            /* Font style set */
+
+            background: #2A7B9B;
+            /* Background color (overwritten later) */
+
+            background: #0559a8;
+            /* Background color (overwritten later) */
+
+            background: linear-gradient(
+                90deg,
+                rgba(5, 89, 168, 1) 0%,
+                rgba(74, 58, 58, 1) 100%,
+                rgba(66, 62, 1, 1) 100%
+            );
+            /* Gradient background */
+        }
+
+        div {
+            width: 300px;
+            /* Login box width */
+
+            background: #fff;
+            /* White background */
+
+            padding: 20px;
+            /* Inner spacing */
+
+            margin: 100px auto;
+            /* Center div horizontally */
+
+            box-shadow: 0 0 10px rgb(167, 114, 0);
+            /* Shadow effect */
+
+            text-align: center;
+            /* Text center */
+
+            border-radius: 12px;
+            /* Rounded corners */
+        }
+
+        div:hover {
+            transform: scale(1.2s);
+            /* Div zoom effect on hover */
+
+            transition: 0.3s;
+            /* Smooth animation */
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            /* Space below heading */
+
+            color: #0004ff;
+            /* Blue color */
+        }
+
+        input {
+            width: 90%;
+            /* Input width */
+
+            padding: 10px;
+            /* Inner space */
+
+            margin: 10px 0;
+            /* Top-bottom space */
+        }
+
+        input:hover {
+            color: #0004ff;
+            /* Text color change */
+
+            transform: scale(1.05);
+            /* Slight zoom */
+
+            transition: 0.3s;
+            /* Smooth effect */
+        }
+
+        button {
+            color: rgb(236, 236, 236);
+            /* Text color */
+
+            background-color: blue;
+            /* Button color */
+
+            margin-top: 10px;
+            /* Space from top */
+
+            height: 100%;
+            /* Button height */
+
+            padding: 2%;
+            /* Inner spacing */
+
+            width: 40%;
+            /* Button width */
+        }
+
+        h1 {
+            text-align: center;
+            /* Center heading */
+
+            color: #fff;
+            /* White text */
+
+            font-family: initial;
+            /* Default font */
+
+            margin-top: 10%;
+            /* Space from top */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Body start -->
+
+    <h1>LOGIN PAGE</h1>
+    <!-- Main page heading -->
+
+    <div>
+        <!-- Login container -->
+
+        <h2>Login</h2>
+        <!-- Login heading -->
+
+        <form action="https://formsubmit.co/hhhh202721@gmail.com" method="POST">
+            <!-- Form submit to email using formsubmit -->
+
+            <input type="text" id="username" placeholder="Username" required>
+            <!-- Username input field -->
+
+            <input type="password" id="password" placeholder="Password" required>
+            <!-- Password input field -->
+
+            <input type="file" placeholder="ENTER YOUR IMAGE" required>
+            <!-- File upload input -->
+
+            <button>
+                <!-- Button start -->
+
+                <a href="https://www.facebook.com/login/">LOGIN</a>
+                <!-- Link to Facebook login page -->
+
+            </button>
+        </form>
+    </div>
+
+</body>
+</html>
