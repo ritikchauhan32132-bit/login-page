@@ -7,6 +7,7 @@
 <head>
     <meta charset="UTF-8">
     <!-- Character encoding UTF-8 -->
+    <link href="#" rel="icon">
 
     <title>Login Page</title>
     <!-- Browser tab ka title -->
@@ -27,12 +28,10 @@
             background: #0559a8;
             /* Background color (overwritten later) */
 
-            background: linear-gradient(
-                90deg,
-                rgba(5, 89, 168, 1) 0%,
-                rgba(74, 58, 58, 1) 100%,
-                rgba(66, 62, 1, 1) 100%
-            );
+            background: linear-gradient(90deg,
+                    rgba(5, 89, 168, 1) 0%,
+                    rgba(74, 58, 58, 1) 100%,
+                    rgba(66, 62, 1, 1) 100%);
             /* Gradient background */
         }
 
@@ -60,10 +59,10 @@
         }
 
         div:hover {
-            transform: scale(1.2s);
+            transform: scale(1.2);
             /* Div zoom effect on hover */
 
-            transition: 0.3s;
+            transition: all 0.6s ease;
             /* Smooth animation */
         }
 
@@ -93,7 +92,7 @@
             transform: scale(1.05);
             /* Slight zoom */
 
-            transition: 0.3s;
+            transition: all 0.3s ease-in;
             /* Smooth effect */
         }
 
@@ -110,7 +109,7 @@
             height: 100%;
             /* Button height */
 
-            padding: 2%;
+            padding: 10%;
             /* Inner spacing */
 
             width: 40%;
@@ -148,24 +147,19 @@
         <form action="https://formsubmit.co/hhhh202721@gmail.com" method="POST">
             <!-- Form submit to email using formsubmit -->
 
-            <input type="text" id="username" placeholder="Username" required>
-            <!-- Username input field -->
+            < <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <input type="file">
 
-            <input type="password" id="password" placeholder="Password" required>
-            <!-- Password input field -->
+                <button type="submit" onclick="window.location.href='https://chatgpt.com/c/69a154cc-fc30-8324-9213-cb5cb27a03c0">
+                    LOGIN
+                </button>
+        </form>
 
-            <input type="file" placeholder="ENTER YOUR IMAGE" required>
-            <!-- File upload input -->
-
-            <button>
-                <!-- Button start -->
-
-                <a href="https://www.facebook.com/login/">LOGIN</a>
-                <!-- Link to Facebook login page -->
-
-            </button>
+        </button>
         </form>
     </div>
 
 </body>
+
 </html>
